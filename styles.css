@@ -1,197 +1,118 @@
-body {
-	margin: 0px;
-	font-size: 14px;
-	line-height: 23px;
-	color: #000000;
-	background-color: #FFFFFF;
-	padding: 0px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	background-image: url(images/cutting-board.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	height: 100%;
-	min-height: 1250px;
-}
-nav {
-    height: 25px;
-    width: 100%;
-    margin: 0px auto 0px auto;
-    padding: 15px 10px 15px 0px;
-    background-color: rgba(27,100,59,0.80);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-}
-nav ul {
-    margin: 0px;
-    padding: 0px;
-}
-nav li {
-    display: inline;
-    list-style-type: none;
-    padding: 35px 20px 0px 20px;
-}
-nav a {
-    margin: 25px 0px 0px 5px;
-    padding: 10px 20px 20px 5px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-nav a:hover {
-    color: rgba(173,235,199,1.00);
-}
-header {
-    margin-top: 0px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 0px;
-    padding-left: 0px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-header img {
-    width: auto;
-    padding: 0;
-    max-height: 500px;
-    vertical-align: middle;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-header.secondary-pages {
-	height: 200px;
-}
-header.secondary-pages img {
-	height: 180px;
-	width: auto;
-	padding-top: 20px;
-	padding-bottom: 0px;
-}
-.main-content{
-    width: 850px;
-    margin: 25px auto 0px auto;
-	padding: 5px 15px 15px 15px;
-    min-height: 350px;
-    background-color: rgba(255,255,255,0.80);
-}
-.main-content h1 {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    color: rgba(21,93,52,1.00);
-	}
-.main-content h2 {
-    font-size: 20px;
-	border-bottom:thin solid rgba(21,93,52,1.00);
-}
-.main-content img {
-    width: 375px;
-    height: 375px;
-    float: right;
-    padding: 0px;
-    margin-top: 0px;
-    margin-left: 10px;
-}
-.main-content p a {
-    color: rgba(0,0,0,1.00);
-}
-.submenu {
-    height: 15px;
-    width: 830px;
-    margin: -5px auto 20px auto;
-    padding: 5px 10px 15px 10px;
-    background-color: rgba(27,100,59,0.50);
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-}
-.submenu ul {
-    margin: 0px;
-    padding: 0px;
 
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff url("images/cutting-board.jpg") no-repeat center bottom;
+  background-size: cover;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
-.submenu li {
-    display: inline;
-    list-style-type: none;
-    padding: 0px 35px 0px 35px;
+
+nav {
+  background-color: rgba(27, 100, 59, 0.8);
+  text-align: center;
+  padding: 0;
 }
-.submenu a {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    color: #FFFFFF;
-    text-decoration: underline;
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.submenu a:hover {
-    color:rgba(22,94,53,1.00);
+
+nav li {
+  display: inline-block;
+  padding: 35px 20px 0 20px;
+  vertical-align: middle;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px 20px 5px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: rgba(173, 235, 199, 1.0);
+}
+
+header.secondary-pages {
+  text-align: center;
+  padding: 0;
+}
+
+header.secondary-pages img {
+  height: auto;
+  width: 885px;
+  max-width: 100%;
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 960px;
+  overflow: hidden;
+}
+
+.float-end {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 footer {
-    height: 10px;
-    text-align: center;
-    padding: 0px 0px 10px 0px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    float: left;
-    clear: both;
-    bottom: 0px;
-    position: relative;
-}
-footer p {
-    margin: 0px;
-    padding: 5px 0px 5px 0px;
-    color: rgba(255,255,255,1.00);
-}
-footer a {
-    text-decoration: none;
-    color: rgba(254,254,254,1.00);
-}
-.bold {
-    font-weight: bolder;
-    margin-left: 5px;
-    color: #155D34;
-}
-.MenuItem {
-    margin: 15px 0px 0px 0px;
-    padding: 0px 15px 0px 15px;
-    font-weight: bolder;
-    font-size: 16px;
-}
-.MenuDescription {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 15px 5px 15px;
-    font-size: 14px;
-    font-weight: normal;
-}
-.veg-label {
-  display: inline-block;
-  padding: 3px 8px;
-  font-size: 11px;
-  background-color: #198754;
-  color: white;
-  border-radius: 10px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-/* Adjusting header for Bootstrap integration */
-header.bootstrap-header {
-    height: auto !important; /* Allow header height to scale dynamically */
+  text-align: center;
+  padding: 15px;
+  font-size: 0.85em;
 }
 
-header.bootstrap-header img {
-    max-height: 500px; /* Match index.html image scaling */
-    width: auto;
-    margin: 0 auto;
+.catering-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.catering-columns div {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.catering-columns img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.veg-badge {
+  background-color: #198754;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .catering-columns {
+    flex-direction: column;
+  }
+
+  nav li {
+    display: block;
+    padding: 10px 0;
+  }
 }
