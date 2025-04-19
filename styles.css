@@ -185,4 +185,13 @@ footer a {
   text-transform: uppercase;
   font-weight: 600;
 }
+/* Adjusting header for Bootstrap integration */
+header.bootstrap-header {
+    height: auto !important; /* Allow header height to scale dynamically */
+}
 
+header.bootstrap-header img {
+    max-height: 500px; /* Match index.html image scaling */
+    width: auto;
+    margin: 0 auto;
+}
